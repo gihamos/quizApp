@@ -28,7 +28,7 @@ les données viennent directement sur `https://quizzapi.jomoreschi.fr/`
 
 
 ## 📂 Structure du projet
-```
+<pre>
 app/
 └── src/
     └── main/
@@ -61,7 +61,7 @@ app/
         │
         └── AndroidManifest.xml
 
-```
+</pre>
 ## 🏗️ Architecture du projet
 
 - **`java/com/example/quizapp/`**  

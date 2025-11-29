@@ -83,7 +83,20 @@ app/
   - `strings.xml` → textes et ressources multilingues  
 
 - **`AndroidManifest.xml`**  
-  Déclare les activités, permissions et configuration globale de l’application.  
+  Déclare les activités, permissions et configuration globale de l’application.
+
+## 📸 Aperçu
+<img width="1344" height="2992" alt="demarrage" src="https://github.com/user-attachments/assets/c20c2e37-c7b4-49f4-8bbb-9d2eea151735" />
+
+<img width="1344" height="2992" alt="acceuil" src="https://github.com/user-attachments/assets/764ac91f-26b8-4302-93c4-c822b1c02f52" />
+
+<img width="1344" height="2992" alt="question" src="https://github.com/user-attachments/assets/9aee9980-0c66-4615-8151-970f1950c3d7" />
+
+<img width="1344" height="2992" alt="score" src="https://github.com/user-attachments/assets/5dfdd018-8d3c-4826-bbcc-343f975bc324" />
+
+<img width="1344" height="2992" alt="historique" src="https://github.com/user-attachments/assets/92962a10-ffd5-46b6-b038-5d0d4f0a7f11" />
+
+
 
 
 ## 📦 Installation

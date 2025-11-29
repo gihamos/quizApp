@@ -2,7 +2,7 @@
 
 Une application Android de quiz développée dans le cadre d’un projet personnel.  
 Elle permet aux utilisateurs de répondre à des questions, consulter leurs résultats et garder un historique des parties.
-les données viennent directement sur `https://quizzapi.jomoreschi.fr/`
+les données viennent directement sur [pour plus d'infos](https://quizzapi.jomoreschi.fr/) ou voir [le github de l'api](https://github.com/Eromnoj/quizzAPIv2)
 
 
 ## 🚀 Fonctionnalités

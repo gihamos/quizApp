@@ -2,7 +2,7 @@
 
 Une application Android de quiz développée dans le cadre d’un projet personnel.  
 Elle permet aux utilisateurs de répondre à des questions, consulter leurs résultats et garder un historique des parties.
-les données vienne directement sur `https://quizzapi.jomoreschi.fr/`
+les données viennent directement sur `https://quizzapi.jomoreschi.fr/`
 
 
 ## 🚀 Fonctionnalités
@@ -28,9 +28,32 @@ les données vienne directement sur `https://quizzapi.jomoreschi.fr/`
 
 
 ## 📂 Structure du projet
-app/ ├── src/main/java/com/example/quizapp/ │    ├── SplashActivity.kt │    ├── ProfileActivity.kt │    ├── MainActivity.kt │    ├── ResultActivity.kt │    └── HistoryActivity.kt │ ├── src/main/res/layout/ │    ├── activity_splash.xml │    ├── activity_profile.xml │    ├── activity_main.xml │    ├── activity_result.xml │    └── activity_history.xml │ ├── src/main/res/anim/ │    ├── zoom_in_fade.xml │    ├── fade_in.xml │    ├── fade_out.xml │    ├── slide_in_right.xml │    └── slide_out_left.xml │ ├── src/main/res/values/ │    ├── themes.xml │    └── strings.xml │ ├── src/main/AndroidManifest.xml
+
+app/ ├── src/ │   ├── main/ │   │   ├── java/com/example/quizapp/ │   │   │   ├── SplashActivity.kt │   │   │   ├── ProfileActivity.kt │   │   │   ├── MainActivity.kt │   │   │   ├── ResultActivity.kt │   │   │   └── HistoryActivity.kt │   │   │ │   │   ├── res/ │   │   │   ├── layout/ │   │   │   │   ├── activity_splash.xml │   │   │   │   ├── activity_profile.xml │   │   │   │   ├── activity_main.xml │   │   │   │   ├── activity_result.xml │   │   │   │   └── activity_history.xml │   │   │   │ │   │   │   ├── anim/ │   │   │   │   ├── zoom_in_fade.xml │   │   │   │   ├── fade_in.xml │   │   │   │   ├── fade_out.xml │   │   │   │   ├── slide_in_right.xml │   │   │   │   └── slide_out_left.xml │   │   │   │ │   │   │   ├── values/ │   │   │   │   ├── themes.xml │   │   │   │   └── strings.xml │   │   │ │   │   ├── AndroidManifest.xml
 
 
+## 🏗️ Architecture du projet
+
+- **`java/com/example/quizapp/`**  
+  Contient les **Activities** principales de l’application :  
+  - `SplashActivity.kt` → écran de démarrage animé  
+  - `ProfileActivity.kt` → gestion du profil utilisateur  
+  - `MainActivity.kt` → logique du quiz (questions/réponses)  
+  - `ResultActivity.kt` → affichage des résultats et scores  
+  - `HistoryActivity.kt` → historique des parties jouées  
+
+- **`res/layout/`**  
+  Fichiers XML définissant l’interface utilisateur (UI) pour chaque écran.  
+
+- **`res/anim/`**  
+  Animations XML utilisées pour les transitions (fade, slide, zoom).  
+
+- **`res/values/`**  
+  - `themes.xml` → gestion du thème clair/sombre  
+  - `strings.xml` → textes et ressources multilingues  
+
+- **`AndroidManifest.xml`**  
+  Déclare les activités, permissions et configuration globale de l’application.  
 
 
 ## 📦 Installation

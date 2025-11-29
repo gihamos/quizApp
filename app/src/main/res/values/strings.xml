@@ -1,0 +1,23 @@
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">QuizApp by Taïse</string>
+
+    <!-- Écran de profil -->
+    <string name="username_hint">Pseudo</string>
+    <string name="start_quiz">Commencer le quiz</string>
+
+    <!-- Écran du quiz -->
+    <string name="validate">Valider</string>
+
+    <!-- Écran des résultats -->
+    <string name="view_history">Voir l\'historique</string>
+    <string name="restart">Recommencer</string>
+    <string name="final_score">Ton score : %1$d / %2$d</string>
+
+    <!-- Messages -->
+    <string name="choose_answer">Choisis une réponse !</string>
+    <string name="correct_answer">Bonne réponse ✅</string>
+    <string name="wrong_answer">Mauvaise réponse ❌</string>
+    <string name="error_api">Erreur API : %1$s</string>
+    <string name="error_categories">Erreur catégories : %1$s</string>
+</resources>

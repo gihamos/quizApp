@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/quiz_ap_round_foreground"
+        android:roundIcon="@mipmap/quiz_ap_round_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Splash comme point d’entrée -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Écran de profil -->
+        <activity android:name=".ProfileActivity" />
+
+        <!-- Écran du quiz -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Écran des résultats -->
+        <activity android:name=".ResultActivity" />
+
+        <!-- Écran de l’historique -->
+        <activity android:name=".HistoryActivity" />
+
+    </application>
+</manifest>

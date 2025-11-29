@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootHistoryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="?android:colorBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:paddingTop="?attr/actionBarSize">
+
+        <!-- Liste des résultats sauvegardés -->
+        <ListView
+            android:id="@+id/lvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/colorPrimary"
+            android:dividerHeight="1dp"
+            android:listSelector="?attr/selectableItemBackground"
+            android:paddingBottom="24dp"
+            android:textColor="?attr/colorOnSurface"
+            android:background="?attr/colorSurface"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

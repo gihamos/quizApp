@@ -1,0 +1,13 @@
+<resources>
+    <!-- Couleurs principales -->
+    <color name="purple_200">#FFBB86FC</color> <!-- COULEUR AJOUTÉE -->
+    <color name="purple_500">#6750A4</color>
+    <color name="purple_700">#FF3700B3</color> <!-- COULEUR AJOUTÉE -->
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Couleurs supplémentaires -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#212121</color>
+</resources>

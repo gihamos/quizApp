@@ -29,7 +29,37 @@ les données viennent directement sur `https://quizzapi.jomoreschi.fr/`
 
 ## 📂 Structure du projet
 
-app/ ├── src/ │   ├── main/ │   │   ├── java/com/example/quizapp/ │   │   │   ├── SplashActivity.kt │   │   │   ├── ProfileActivity.kt │   │   │   ├── MainActivity.kt │   │   │   ├── ResultActivity.kt │   │   │   └── HistoryActivity.kt │   │   │ │   │   ├── res/ │   │   │   ├── layout/ │   │   │   │   ├── activity_splash.xml │   │   │   │   ├── activity_profile.xml │   │   │   │   ├── activity_main.xml │   │   │   │   ├── activity_result.xml │   │   │   │   └── activity_history.xml │   │   │   │ │   │   │   ├── anim/ │   │   │   │   ├── zoom_in_fade.xml │   │   │   │   ├── fade_in.xml │   │   │   │   ├── fade_out.xml │   │   │   │   ├── slide_in_right.xml │   │   │   │   └── slide_out_left.xml │   │   │   │ │   │   │   ├── values/ │   │   │   │   ├── themes.xml │   │   │   │   └── strings.xml │   │   │ │   │   ├── AndroidManifest.xml
+app/
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/example/quizapp/
+        │       ├── SplashActivity.kt
+        │       ├── ProfileActivity.kt
+        │       ├── MainActivity.kt
+        │       ├── ResultActivity.kt
+        │       └── HistoryActivity.kt
+        │
+        ├── res/
+        │   ├── layout/
+        │   │   ├── activity_splash.xml
+        │   │   ├── activity_profile.xml
+        │   │   ├── activity_main.xml
+        │   │   ├── activity_result.xml
+        │   │   └── activity_history.xml
+        │   │
+        │   ├── anim/
+        │   │   ├── zoom_in_fade.xml
+        │   │   ├── fade_in.xml
+        │   │   ├── fade_out.xml
+        │   │   ├── slide_in_right.xml
+        │   │   └── slide_out_left.xml
+        │   │
+        │   └── values/
+        │       ├── themes.xml
+        │       └── strings.xml
+        │
+        └── AndroidManifest.xml
 
 
 ## 🏗️ Architecture du projet

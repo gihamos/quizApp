@@ -102,12 +102,13 @@ app/
 
 
 ## 📦 Installation
+1. `Pré-requis`: vous d'abord installer [java](https://www.oracle.com/java/technologies/downloads/) et [android studio](https://developer.android.com/studio?hl=fr)
 
-1. Clone le projet :
+2. Clone le projet :
    ```bash
    git clone https://github.com/gihamos/QuizApp.git
-2. Ouvre le projet dans Android Studio
-3. Compile et lance sur un émulateur ou un appareil Android
+3. Ouvre le projet dans Android Studio
+4. Compile et lance sur un émulateur ou un appareil Android
 
 
 ## 👨‍💻 Auteur

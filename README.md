@@ -66,7 +66,7 @@ app/
 ## 🏗️ Architecture du projet
 
 - **`java/com/example/quizapp/`**
--  Contient les ** fichers pour la creation la base de données,le model et  de l'api**  de l’application : 
+-  - `data/`  Contient les ** fichers pour la creation la base de données,le model et  de l'api**  de l’application : 
   Contient les **Activities** principales de l’application :  
   - `SplashActivity.kt` → écran de démarrage animé  
   - `ProfileActivity.kt` → gestion du profil utilisateur  

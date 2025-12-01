@@ -102,7 +102,7 @@ app/
 
 
 ## 📦 Installation
-1. `Pré-requis`: vous d'abord installer [java](https://www.oracle.com/java/technologies/downloads/) et [android studio](https://developer.android.com/studio?hl=fr)
+1. `Pré-requis`: vous devrez posséder  [java](https://www.oracle.com/java/technologies/downloads/) et [android studio](https://developer.android.com/studio?hl=fr)
 
 2. Clone le projet :
    ```bash

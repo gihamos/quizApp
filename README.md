@@ -7,13 +7,11 @@ les données viennent directement sur le site de [jomoreschi](https://quizzapi.j
 
 ## 🚀 Fonctionnalités
 
-- 🎬 **Écran de démarrage animé (Splash Screen)** avec ton nom et une animation moderne  
 - 👤 **ProfileActivity** : gestion du profil utilisateur  
 - 📝 **MainActivity** : quiz interactif avec questions/réponses  
 - 🏆 **ResultActivity** : affichage des scores et résultats  
 - 📜 **HistoryActivity** : historique des parties jouées  
 - 🎨 **Mode clair/sombre** avec Material3  
-- 🖼️ **Icône personnalisée** pour l’application  
 
 
 ## 🛠️ Technologies utilisées

@@ -14,7 +14,7 @@ les données viennent directement sur le site de [jomoreschi](https://quizzapi.j
 - 🎨 **Mode clair/sombre** avec Material3  
 
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Langage** : Kotlin  
 - **Framework** : Android SDK  

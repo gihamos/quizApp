@@ -5,7 +5,7 @@ Elle permet aux utilisateurs de répondre à des questions, consulter leurs rés
 les données viennent directement sur le site de [jomoreschi](https://quizzapi.jomoreschi.fr/) ou voir [le github de l'api](https://github.com/Eromnoj/quizzAPIv2)
 
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - 👤 **ProfileActivity** : gestion du profil utilisateur  
 - 📝 **MainActivity** : quiz interactif avec questions/réponses  
@@ -25,7 +25,7 @@ les données viennent directement sur le site de [jomoreschi](https://quizzapi.j
 
 
 
-## 📂 Structure du projet
+## Structure du projet
 <pre>
 app/
 └── src/
@@ -61,31 +61,9 @@ app/
         └── AndroidManifest.xml
 
 </pre>
-## 🏗️ Architecture du projet
 
-- **`java/com/example/quizapp/`**
--  - `data/`  Contient les ** fichers pour la creation la base de données,le model et  de l'api**  de l’application : 
-  Contient les **Activities** principales de l’application :  
-  - `SplashActivity.kt` → écran de démarrage animé  
-  - `ProfileActivity.kt` → gestion du profil utilisateur  
-  - `MainActivity.kt` → logique du quiz (questions/réponses)  
-  - `ResultActivity.kt` → affichage des résultats et scores  
-  - `HistoryActivity.kt` → historique des parties jouées  
 
-- **`res/layout/`**  
-  Fichiers XML définissant l’interface utilisateur (UI) pour chaque écran.  
-
-- **`res/anim/`**  
-  Animations XML utilisées pour les transitions (fade, slide, zoom).  
-
-- **`res/values/`**  
-  - `themes.xml` → gestion du thème clair/sombre  
-  - `strings.xml` → textes et ressources multilingues  
-
-- **`AndroidManifest.xml`**  
-  Déclare les activités, permissions et configuration globale de l’application.
-
-## 📸 Aperçu
+## Aperçu
 <img width="200" height="300" alt="demarrage" src="https://github.com/user-attachments/assets/c20c2e37-c7b4-49f4-8bbb-9d2eea151735" />
 
 <img width="200" height="300" alt="acceuil" src="https://github.com/user-attachments/assets/764ac91f-26b8-4302-93c4-c822b1c02f52" />
@@ -99,7 +77,7 @@ app/
 
 
 
-## 📦 Installation
+##  Installation
 1. `Pré-requis`: vous devrez posséder  [java](https://www.oracle.com/java/technologies/downloads/) et [android studio](https://developer.android.com/studio?hl=fr)
 
 2. Clone le projet :
@@ -109,12 +87,12 @@ app/
 4. Compile et lance sur un émulateur ou un appareil Android
 
 
-## 👨‍💻 Auteur
+##  Auteur
 Développé par Taïse De Thèse NGANGA YABIE
 Projet personnel de développement Android
 
 
-## 📜 Licence
+##  Licence
 Ce projet est sous licence MIT – libre d’utilisation et de modification.
 
 

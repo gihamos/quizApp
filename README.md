@@ -92,9 +92,5 @@ Développé par Taïse De Thèse NGANGA YABIE
 Projet personnel de développement Android
 
 
-##  Licence
-Ce projet est sous licence MIT – libre d’utilisation et de modification.
-
-
 
 

@@ -7,11 +7,11 @@ les données viennent directement sur le site de [jomoreschi](https://quizzapi.j
 
 ##  Fonctionnalités
 
-- 👤 **ProfileActivity** : gestion du profil utilisateur  
-- 📝 **MainActivity** : quiz interactif avec questions/réponses  
-- 🏆 **ResultActivity** : affichage des scores et résultats  
-- 📜 **HistoryActivity** : historique des parties jouées  
-- 🎨 **Mode clair/sombre** avec Material3  
+-  **ProfileActivity** : gestion du profil utilisateur  
+-  **MainActivity** : quiz interactif avec questions/réponses  
+-  **ResultActivity** : affichage des scores et résultats  
+-  **HistoryActivity** : historique des parties jouées  
+-  **Mode clair/sombre** avec Material3  
 
 
 ## Technologies utilisées

@@ -1,4 +1,4 @@
-# 📱 QuizApp by Taïse De Thèse NGANGA YABIE
+#  QuizApp by Taïse De Thèse NGANGA YABIE
 
 Une application Android de quiz développée dans le cadre d’un projet personnel.  
 Elle permet aux utilisateurs de répondre à des questions, consulter leurs résultats et garder un historique des parties.

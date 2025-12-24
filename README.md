@@ -89,7 +89,7 @@ app/
 
 ##  Auteur
 Développé par Taïse De Thèse NGANGA YABIE
-Projet personnel de développement Android
+Projet personnel de développement d'une application Android
 
 
 
